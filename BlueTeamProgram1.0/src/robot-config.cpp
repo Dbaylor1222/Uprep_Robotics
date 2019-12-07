@@ -13,10 +13,9 @@ motor RightDriveSmart = motor(PORT11, ratio18_1, true);
 drivetrain Drivetrain = drivetrain(LeftDriveSmart, RightDriveSmart, 319.19, 295, 130, mm, 0.6666666666666666);
 controller Controller1 = controller(primary);
 motor ramp = motor(PORT13, ratio18_1, true);
-motor intake_Rase_lower = motor(PORT14, ratio18_1, false);
+motor intake_Rase_lower =   motor(PORT14, ratio18_1, false);
 motor left_intake = motor(PORT15, ratio18_1, false);
-motor right_intake = motor(PORT16, ratio18_1, false);
-
+motor right_intake = motor(PORT14, ratio18_1, true);
 // VEXcode generated functions
 // define variables used for controlling motors based on controller inputs
 bool Controller1LeftShoulderControlMotorsStopped = true;

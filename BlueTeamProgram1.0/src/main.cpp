@@ -23,6 +23,7 @@
 using namespace vex;
 
 int main() {
+  motor_group   intake(left_intake, right_intake);
   int rampPosition = 0;
   // Initializing Robot Configuration. DO NOT REMOVE!
   while (true) {
@@ -44,18 +45,28 @@ int main() {
       // sets the speed of the ramp lift and intake 
       ramp.setVelocity(10, percent);
       intake.setVelocity(10, percent); // need to play with this to get speed right for setting down the blocks
-      // ramp.spinFor(145, degrees);
       // starts spinning the ramp
       ramp.spin(fwd);
-      intake.spin(fwd);
-      wait(.5, seconds);
+      intake.spin(reverse);
+      wait(1.8, seconds);
       // stops spinning the ramp
-      ramp.stop();
+      ramp.stop(); 
+      // wait(1.5, seconds);
       intake.stop();
       //drives back and resets the ramp
       Drivetrain.driveFor(-6, inches); // may need to have intake reverse to allow to drive backwards
-      ramp.setVelocity(20, percent);
-      ramp.spinFor(-145, degrees);
+      // ramp.setVelocity(20, percent);
+      // ramp.spin(reverse);
+      // wait(.7,seconds);
+      // ramp.stop();
+    }
+    if (Controller1.ButtonB.pressing()) {
+      intake.spin( forward, 100, percent );
+    }else if (Controller1.ButtonY.pressing()){
+      intake.spin( reverse, 100, percent );
+    } else{
+      intake.stop();
     }
   }
 }
+
