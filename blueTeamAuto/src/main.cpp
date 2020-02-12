@@ -18,6 +18,7 @@
 using namespace vex;
 
 int main() {
+    motor_group   intake(left_intake, right_intake);
   // Initializing Robot Configuration. DO NOT REMOVE!
 
   // grid lengh 23.5 inches

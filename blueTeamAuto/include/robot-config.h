@@ -9,10 +9,10 @@ extern motor ramp;
 extern motor intake_Rase_lower;
 extern motor left_intake;
 extern motor right_intake;
-motor_group   intake = motor_group(left_intake, right_intake);
 /**
  * Used to initialize code/tasks/devices added using tools in VEXcode Text.
  * 
  * This should be called at the start of your int main function.
  */
 void  vexcodeInit( void );
+

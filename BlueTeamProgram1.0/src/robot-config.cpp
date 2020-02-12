@@ -7,13 +7,13 @@ using code = vision::code;
 // A global instance of brain used for printing to the V5 Brain screen
 brain  Brain;
 
-// VEXcode device constructors
+// VEXcode device constructors 
 motor LeftDriveSmart = motor(PORT12, ratio18_1, false);
 motor RightDriveSmart = motor(PORT11, ratio18_1, true);
 drivetrain Drivetrain = drivetrain(LeftDriveSmart, RightDriveSmart, 319.19, 295, 130, mm, 0.6666666666666666);
 controller Controller1 = controller(primary);
 motor ramp = motor(PORT13, ratio18_1, true);
-motor intake_Rase_lower =   motor(PORT14, ratio18_1, false);
+// motor intake_Rase_lower = motor(PORT1, ratio18_1, false);
 motor left_intake = motor(PORT15, ratio18_1, false);
 motor right_intake = motor(PORT14, ratio18_1, true);
 // VEXcode generated functions
@@ -58,32 +58,32 @@ int rc_auto_loop_callback_Controller1() {
       RightDriveSmart.spin(forward);
     }
     // check the ButtonL1/ButtonL2 status to control left_intake and right_intake
-    if (Controller1.ButtonL1.pressing()) {
-      left_intake.spin(forward);
-      right_intake.spin(forward);
-      Controller1LeftShoulderControlMotorsStopped = false;
-    } else if (Controller1.ButtonL2.pressing()) {
-      left_intake.spin(reverse);
-      right_intake.spin(reverse);
-      Controller1LeftShoulderControlMotorsStopped = false;
-    } else if (!Controller1LeftShoulderControlMotorsStopped) {
-      left_intake.stop();
-      right_intake.stop();
-      // set the toggle so that we don't constantly tell the motor to stop when the buttons are released
-      Controller1LeftShoulderControlMotorsStopped = true;
-    }
-    // check the ButtonR1/ButtonR2 status to control intake_Rase_lower
-    if (Controller1.ButtonR1.pressing()) {
-      intake_Rase_lower.spin(forward);
-      Controller1RightShoulderControlMotorsStopped = false;
-    } else if (Controller1.ButtonR2.pressing()) {
-      intake_Rase_lower.spin(reverse);
-      Controller1RightShoulderControlMotorsStopped = false;
-    } else if (!Controller1RightShoulderControlMotorsStopped) {
-      intake_Rase_lower.stop();
-      // set the toggle so that we don't constantly tell the motor to stop when the buttons are released
-      Controller1RightShoulderControlMotorsStopped = true;
-    }
+    // if (Controller1.ButtonL1.pressing()) {
+    //   left_intake.spin(forward);
+    //   right_intake.spin(forward);
+    //   Controller1LeftShoulderControlMotorsStopped = false;
+    // } else if (Controller1.ButtonL2.pressing()) {
+    //   left_intake.spin(reverse);
+    //   right_intake.spin(reverse);
+    //   Controller1LeftShoulderControlMotorsStopped = false;
+    // } else if (!Controller1LeftShoulderControlMotorsStopped) {
+    //   left_intake.stop();
+    //   right_intake.stop();
+    //   // set the toggle so that we don't constantly tell the motor to stop when the buttons are released
+    //   Controller1LeftShoulderControlMotorsStopped = true;
+    // }
+    // // check the ButtonR1/ButtonR2 status to control intake_Rase_lower
+    // if (Controller1.ButtonR1.pressing()) {
+    //   intake_Rase_lower.spin(forward);
+    //   Controller1RightShoulderControlMotorsStopped = false;
+    // } else if (Controller1.ButtonR2.pressing()) {
+    //   intake_Rase_lower.spin(reverse);
+    //   Controller1RightShoulderControlMotorsStopped = false;
+    // } else if (!Controller1RightShoulderControlMotorsStopped) {
+    //   intake_Rase_lower.stop();
+    //   // set the toggle so that we don't constantly tell the motor to stop when the buttons are released
+    //   Controller1RightShoulderControlMotorsStopped = true;
+    // }
     // check the Up/Down Buttons status to control right_intake
     // if (Controller1.ButtonUp.pressing()) {
     //   right_intake.spin(forward);
