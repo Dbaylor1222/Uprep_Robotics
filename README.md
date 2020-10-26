@@ -1,2 +1,2 @@
-# Blue_robotics_team
-The code for UPrep's blue team
+# Uprep_robotics_team
+The code and resources for UPrep's robotics team 
