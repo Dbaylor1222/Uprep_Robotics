@@ -11,6 +11,7 @@
 // Robot Configuration:
 // [Name]               [Type]        [Port(s)]
 // Drivetrain           drivetrain    1, 2            
+// Controller1          controller                    
 // ---- END VEXCODE CONFIGURED DEVICES ----
 
 #include "vex.h"
@@ -71,10 +72,19 @@ void usercontrol(void) {
     // Each time through the loop your program should update motor + servo
     // values based on feedback from the joysticks.
 
-    // ........................................................................
-    // Insert user code here. This is where you use the joystick values to
-    // update your motors, etc.
-    // ........................................................................
+    if (abs(Controller1.Axis3.position()) > 5){
+      LeftDriveSmart.setVelocity(Controller1.Axis3.position(), percent);
+      LeftDriveSmart.spin(forward);
+    } else {
+      LeftDriveSmart.stop();
+    }
+
+    if (abs(Controller1.Axis1.position()) > 5){
+      RightDriveSmart.setVelocity(Controller1.Axis1.position(), percent);
+      RightDriveSmart.spin(forward);
+    } else {
+      RightDriveSmart.stop();
+    }
 
     wait(20, msec); // Sleep the task for a short amount of time to
                     // prevent wasted resources.
