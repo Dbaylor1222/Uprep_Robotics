@@ -71,16 +71,18 @@ void usercontrol(void) {
     // This is the main execution loop for the user control program.
     // Each time through the loop your program should update motor + servo
     // values based on feedback from the joysticks.
-
-    if (abs(Controller1.Axis3.position()) > 5){
-      LeftDriveSmart.setVelocity(Controller1.Axis3.position(), percent);
+    
+    int axis3Position = Controller1.Axis3.position();
+    if (abs(axis3Position) > 5){
+      LeftDriveSmart.setVelocity(axis3Position, percent);
       LeftDriveSmart.spin(forward);
     } else {
       LeftDriveSmart.stop();
     }
 
-    if (abs(Controller1.Axis1.position()) > 5){
-      RightDriveSmart.setVelocity(Controller1.Axis1.position(), percent);
+    int axis2Position = Controller1.Axis2.position();
+    if (abs(axis2Position) > 5){
+      RightDriveSmart.setVelocity(axis2Position, percent);
       RightDriveSmart.spin(forward);
     } else {
       RightDriveSmart.stop();
