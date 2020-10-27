@@ -10,8 +10,9 @@ so toggle those to change which way is  forward or reverse.
 
 12 is the same as 11 but for the right motor. The opposite way is forward so the last parameter is true instead of false.
 
-13 sets up the drivetrain. A drivetrain is a special motor group and allowed the motors to be controlled both at once. 
+13 sets up the drivetrain. A drivetrain is a special motor group and allowed both motors to be controlled at once. 
 Like the motor commands the “drivetrain” with a lowercase d is calling prewritten code that defines a drivetrain. 
 Then the “Drivetrain” with an uppercase D is a variable name. Then you define your drive train with the things between the 
 parenthesis. First are your two motors, then wheel travel, track width, wheel base, units, and external gear ratio. (not sure what 
-the then wheel travel, track width, wheel base are but that is what they are called in the underlying code. 
+the wheel travel, track width, wheel base are but that is what they are called in the underlying code. (CTRL+click on something to 
+view underlying code)
