@@ -52,7 +52,13 @@ void pre_auton(void) {
 /*---------------------------------------------------------------------------*/
 
 void autonomous(void) {
-  Drivetrain.driveFor(forward, 10, inches);
+  Drivetrain.driveFor(forward, 20, inches);
+  wait(1, seconds);
+  Drivetrain.turnFor(90, degrees);
+  wait(1, seconds);
+  Drivetrain.driveFor(forward, 20, inches);
+  wait(1, seconds);
+  Drivetrain.turnFor(-90, degrees);
 }
 
 /*---------------------------------------------------------------------------*/
@@ -72,6 +78,7 @@ void usercontrol(void) {
     // Each time through the loop your program should update motor + servo
     // values based on feedback from the joysticks.
     
+    // ties the left joystick to the left wheels 
     int axis3Position = Controller1.Axis3.position();
     if (abs(axis3Position) > 5){
       LeftDriveSmart.setVelocity(axis3Position, percent);
@@ -80,6 +87,7 @@ void usercontrol(void) {
       LeftDriveSmart.stop();
     }
 
+    // ties the right joystick to the rignt wheels
     int axis2Position = Controller1.Axis2.position();
     if (abs(axis2Position) > 5){
       RightDriveSmart.setVelocity(axis2Position, percent);
