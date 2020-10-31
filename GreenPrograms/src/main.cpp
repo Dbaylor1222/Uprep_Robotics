@@ -78,22 +78,39 @@ void usercontrol(void) {
     // Each time through the loop your program should update motor + servo
     // values based on feedback from the joysticks.
     
-    // ties the left joystick to the left wheels 
+
+    // each joystick controlls a diffrent motor:
+    // int axis3Position = Controller1.Axis3.position();
+    // if (abs(axis3Position) > 5){
+    //   LeftDriveSmart.setVelocity(axis3Position, percent);
+    //   LeftDriveSmart.spin(forward);
+    // } else {
+    //   LeftDriveSmart.stop();
+    // }
+
+    // // ties the right joystick to the rignt wheels
+    // int axis2Position = Controller1.Axis2.position();
+    // if (abs(axis2Position) > 5){
+    //   RightDriveSmart.setVelocity(axis2Position, percent);
+    //   RightDriveSmart.spin(forward);
+    // } else {
+    //   RightDriveSmart.stop();
+    // }
+
+    int axis4Position = Controller1.Axis4.position();
     int axis3Position = Controller1.Axis3.position();
-    if (abs(axis3Position) > 5){
-      LeftDriveSmart.setVelocity(axis3Position, percent);
+
+    if (abs(axis4Position) > 5 || abs(axis3Position) > 5){
+
+      int rightVel = axis3Position - axis4Position;
+      RightDriveSmart.setVelocity(rightVel, percent);
+      RightDriveSmart.spin(forward);
+
+      int leftVel = axis3Position + axis4Position;
+      LeftDriveSmart.setVelocity(leftVel, percent);
       LeftDriveSmart.spin(forward);
     } else {
-      LeftDriveSmart.stop();
-    }
-
-    // ties the right joystick to the rignt wheels
-    int axis2Position = Controller1.Axis2.position();
-    if (abs(axis2Position) > 5){
-      RightDriveSmart.setVelocity(axis2Position, percent);
-      RightDriveSmart.spin(forward);
-    } else {
-      RightDriveSmart.stop();
+      Drivetrain.stop();
     }
 
     wait(20, msec); // Sleep the task for a short amount of time to
