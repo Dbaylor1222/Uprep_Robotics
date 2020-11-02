@@ -101,27 +101,69 @@ void usercontrol(void) {
     int axis3Position = Controller1.Axis3.position();
 
     if (abs(axis4Position) > 5 || abs(axis3Position) > 5){
+      Brain.Screen.print("Robot moving");
+      Brain.Screen.newLine();
 
-      int rightVel = axis3Position - axis4Position;
+
+      int rightVel = (axis3Position - (axis4Position/2))/2;
       RightDriveSmart.setVelocity(rightVel, percent);
       RightDriveSmart.spin(forward);
 
-      int leftVel = axis3Position + axis4Position;
+      int leftVel = (axis3Position + (axis4Position/2))/2;
       LeftDriveSmart.setVelocity(leftVel, percent);
       LeftDriveSmart.spin(forward);
     } else {
       Drivetrain.stop();
     }
 
+    // intake togle (press it once and its on, again and its off)
+    // connected to port 3
+    bool IntakeOn = false;
+    if (Controller1.ButtonL1.pressing()){
+      if (IntakeOn){
+        Brain.Screen.print("Intake off");
+        Brain.Screen.newLine();
+        Intake.stop();
+        IntakeOn = false;
+      } else {
+        Brain.Screen.print("Intake on");
+        Brain.Screen.newLine();
+        Intake.setVelocity(50, percent);
+        Intake.spin(forward);
+        IntakeOn = true;
+      }
+    }
+
+    bool IntakeUp = false;
+    if (Controller1.ButtonL2.pressing()){
+      if (IntakeUp){
+        Brain.Screen.print("intake down");
+        Brain.Screen.newLine();
+        Intake.setVelocity(50, percent);
+        Intake.spinFor(reverse, 45, degrees);
+        IntakeUp = false;
+      } else {
+        Brain.Screen.print("intake up");
+        Brain.Screen.newLine();
+        Intake.setVelocity(50, percent);
+        Intake.spinFor(forward, 45, degrees);
+        IntakeUp = true;
+      }
+    }
+
+
     wait(20, msec); // Sleep the task for a short amount of time to
                     // prevent wasted resources.
   }
 }
-
 //
 // Main will set up the competition functions and callbacks.
 //
 int main() {
+  Brain.Screen.clearScreen();
+  Brain.Screen.print("GreenProgram running");
+  Brain.Screen.newLine();
+
   // Set up callbacks for autonomous and driver control periods.
 
   // uncomment these for competitions do not forget to uncomment the line 22

@@ -7,6 +7,8 @@ extern motor LeftDriveSmart;
 extern motor RightDriveSmart;
 extern drivetrain Drivetrain;
 extern controller Controller1;
+extern motor Intake;
+extern motor RaisLowerIntake;
 
 /**
  * Used to initialize code/tasks/devices added using tools in VEXcode Pro.

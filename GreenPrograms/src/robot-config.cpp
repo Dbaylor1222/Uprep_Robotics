@@ -11,6 +11,8 @@ brain  Brain;
 motor LeftDriveSmart = motor(PORT1, ratio18_1, true);
 motor RightDriveSmart = motor(PORT2, ratio18_1, false);
 drivetrain Drivetrain = drivetrain(LeftDriveSmart, RightDriveSmart, 319.19, 295, 40, mm, .7143);
+motor Intake = motor(PORT3, ratio18_1, true);
+motor RaisLowerIntake = motor(PORT4, ratio18_1, true);
 controller Controller1 = controller(primary);
 
 // VEXcode generated functions
