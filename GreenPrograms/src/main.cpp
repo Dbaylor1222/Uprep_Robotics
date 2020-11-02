@@ -140,13 +140,13 @@ void usercontrol(void) {
         Brain.Screen.print("intake down");
         Brain.Screen.newLine();
         Intake.setVelocity(50, percent);
-        Intake.spinFor(reverse, 45, degrees);
+        Intake.spinFor(reverse, 180, degrees);
         IntakeUp = false;
       } else {
         Brain.Screen.print("intake up");
         Brain.Screen.newLine();
         Intake.setVelocity(50, percent);
-        Intake.spinFor(forward, 45, degrees);
+        Intake.spinFor(forward, 180, degrees);
         IntakeUp = true;
       }
     }
