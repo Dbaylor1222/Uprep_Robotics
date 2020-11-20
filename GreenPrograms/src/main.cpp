@@ -73,6 +73,8 @@ void autonomous(void) {
 
 void usercontrol(void) {
   // User control code here, inside the loop
+  bool intakeOn = false;
+
   while (true) {
     // This is the main execution loop for the user control program.
     // Each time through the loop your program should update motor + servo
@@ -118,19 +120,20 @@ void usercontrol(void) {
 
     // intake togle (press it once and its on, again and its off)
     // connected to port 3
-    bool IntakeOn = false;
     if (Controller1.ButtonL1.pressing()){
-      if (IntakeOn){
+      if (intakeOn){
         Brain.Screen.print("Intake off");
         Brain.Screen.newLine();
         Intake.stop();
-        IntakeOn = false;
+        intakeOn = false;
       } else {
         Brain.Screen.print("Intake on");
         Brain.Screen.newLine();
         Intake.setVelocity(50, percent);
         Intake.spin(forward);
-        IntakeOn = true;
+        intakeOn = true;
+      }
+      while (Controller1.ButtonL1.pressing()){
       }
     }
 
