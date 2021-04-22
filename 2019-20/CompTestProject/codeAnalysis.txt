@@ -1,0 +1,18 @@
+robot-config.ccp
+
+lines 11-13 are defining the drivetrain:
+
+11 sets up the left motor, the word motor is from the vex package and calls all the pre built code to handle motors. 
+Then "LeftDriveSmart" is a veritable name (could be anything just what I am calling the motor) the "=" is assigning that name 
+to a motor and then in side the parentheses it is describing the motor. first is the port then the gear ratio inside the 
+motor (always will be 1-18 unless we swap out the motor things), then the true/false is witch direction the motor is spinning 
+so toggle those to change which way is  forward or reverse.
+
+12 is the same as 11 but for the right motor. The opposite way is forward so the last parameter is true instead of false.
+
+13 sets up the drivetrain. A drivetrain is a special motor group and allowed both motors to be controlled at once. 
+Like the motor commands the “drivetrain” with a lowercase d is calling prewritten code that defines a drivetrain. 
+Then the “Drivetrain” with an uppercase D is a variable name. Then you define your drive train with the things between the 
+parenthesis. First are your two motors, then wheel travel, track width, wheel base, units, and external gear ratio. (not sure what 
+the wheel travel, track width, wheel base are but that is what they are called in the underlying code. (CTRL+click on something to 
+view underlying code)
