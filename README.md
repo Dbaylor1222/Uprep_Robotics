@@ -2,7 +2,7 @@
 The code and resources for UPrep's robotics team 
 
 
-###Resources:
+Resources:
 
 C++ programing guide:
 
