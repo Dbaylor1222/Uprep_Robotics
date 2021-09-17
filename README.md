@@ -3,7 +3,7 @@
 
 
 
-###### Resources:
+#### Resources:
 
 Check out the example code folder for 2 programs using Matlab, read "example_code.md" in that folder for more information on the 2020-21 programs. 
 
