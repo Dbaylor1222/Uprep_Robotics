@@ -1,0 +1,17 @@
+rt_zcfcn.o: \
+ C:/Users/dbayl/School/VEXTeam/Uprep_robotics/BlueTeam20-21/Drive1_ert_rtw/rt_zcfcn.c \
+ C:/Users/dbayl/School/VEXTeam/Uprep_robotics/BlueTeam20-21/Drive1_ert_rtw/rt_zcfcn.h \
+ C:/Users/dbayl/School/VEXTeam/Uprep_robotics/BlueTeam20-21/Drive1_ert_rtw/rtwtypes.h \
+ C:/Program\ Files/MATLAB/R2021a/extern/include/tmwtypes.h \
+ C:/Program\ Files/MATLAB/R2021a/simulink/include/solver_zc.h \
+ C:/Users/dbayl/School/VEXTeam/Uprep_robotics/BlueTeam20-21/Drive1_ert_rtw/zero_crossing_types.h
+
+C:/Users/dbayl/School/VEXTeam/Uprep_robotics/BlueTeam20-21/Drive1_ert_rtw/rt_zcfcn.h:
+
+C:/Users/dbayl/School/VEXTeam/Uprep_robotics/BlueTeam20-21/Drive1_ert_rtw/rtwtypes.h:
+
+C:/Program\ Files/MATLAB/R2021a/extern/include/tmwtypes.h:
+
+C:/Program\ Files/MATLAB/R2021a/simulink/include/solver_zc.h:
+
+C:/Users/dbayl/School/VEXTeam/Uprep_robotics/BlueTeam20-21/Drive1_ert_rtw/zero_crossing_types.h:

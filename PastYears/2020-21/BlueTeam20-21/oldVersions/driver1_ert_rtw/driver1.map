@@ -1,0 +1,2321 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+                              (vexStartup)
+C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                              C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj) (vexPrivateApiDisable)
+C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+                              driver1.o (vexMotorVelocitySet)
+C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiversions.c.obj)
+                              C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj) (vexSystemVersion)
+c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-fini.o)
+                              C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj) (__libc_fini_array)
+c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-init.o)
+                              C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj) (__libc_init_array)
+c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-memcpy.o)
+                              queue.o (memcpy)
+c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-memset.o)
+                              driver1.o (memset)
+c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strcpy.o)
+                              MW_SupportFunc_Wrapper.o (strcpy)
+c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strlen.o)
+                              MW_SupportFunc_Wrapper.o (strlen)
+c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strncpy.o)
+                              MW_TabManager.o (strncpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+__vex_critical_section
+                    0x1               C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+threadJoinStatus    0x4               ert_main.o
+stopSem             0x4               ert_main.o
+xQueueRegistry      0x40              queue.o
+baserateTaskSem     0x4               ert_main.o
+mw_scheduler_timer_def
+                    0x24              mw_freertos_init.o
+baseRateThread      0x20              ert_main.o
+schedulerThread     0x20              ert_main.o
+mw_timer_id         0x4               mw_freertos_init.o
+driver1_DW          0xbc              driver1.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 FreeRTOS_asm_vectors.o
+ .data          0x00000000        0x0 FreeRTOS_asm_vectors.o
+ .bss           0x00000000        0x0 FreeRTOS_asm_vectors.o
+ .ARM.attributes
+                0x00000000       0x23 FreeRTOS_asm_vectors.o
+ .text          0x00000000        0x0 MW_FreeRTOS_glue.o
+ .data          0x00000000        0x0 MW_FreeRTOS_glue.o
+ .bss           0x00000000        0x0 MW_FreeRTOS_glue.o
+ .text          0x00000000        0x0 MW_SupportFunc_Wrapper.o
+ .data          0x00000000        0x0 MW_SupportFunc_Wrapper.o
+ .bss           0x00000000        0x0 MW_SupportFunc_Wrapper.o
+ .rodata.OverRunDetected.str1.1
+                0x00000000       0x2e MW_SupportFunc_Wrapper.o
+ .text.OverRunDetected
+                0x00000000       0x30 MW_SupportFunc_Wrapper.o
+ .bss.overrunErrMsgIndex1
+                0x00000000        0x1 MW_SupportFunc_Wrapper.o
+ .text          0x00000000        0x0 MW_TabManager.o
+ .data          0x00000000        0x0 MW_TabManager.o
+ .bss           0x00000000        0x0 MW_TabManager.o
+ .text.MW_TabMgr_IsSimulinkPanelTabActive
+                0x00000000       0x1c MW_TabManager.o
+ .text.MW_TabMgr_GetActiveTab
+                0x00000000       0x10 MW_TabManager.o
+ .text.MW_TabMgr_RegisterSimulinkPanelTab
+                0x00000000       0x28 MW_TabManager.o
+ .text.MW_UserPushButtons_Init
+                0x00000000       0x48 MW_TabManager.o
+ .text.MW_UserPushButtons_GetRef
+                0x00000000       0x20 MW_TabManager.o
+ .text.MW_UserPushButtons_GetTotalRegisteredNos
+                0x00000000       0x10 MW_TabManager.o
+ .text          0x00000000        0x0 MW_Vex_TaskControl.o
+ .data          0x00000000        0x0 MW_Vex_TaskControl.o
+ .bss           0x00000000        0x0 MW_Vex_TaskControl.o
+ .text          0x00000000        0x0 croutine.o
+ .data          0x00000000        0x0 croutine.o
+ .bss           0x00000000        0x0 croutine.o
+ .comment       0x00000000       0x4d croutine.o
+ .ARM.attributes
+                0x00000000       0x35 croutine.o
+ .text          0x00000000        0x0 driver1.o
+ .data          0x00000000        0x0 driver1.o
+ .bss           0x00000000        0x0 driver1.o
+ .text          0x00000000        0x0 driver1_data.o
+ .data          0x00000000        0x0 driver1_data.o
+ .bss           0x00000000        0x0 driver1_data.o
+ .text          0x00000000        0x0 ert_main.o
+ .data          0x00000000        0x0 ert_main.o
+ .bss           0x00000000        0x0 ert_main.o
+ .rodata.exitFcn.str1.1
+                0x00000000       0x13 ert_main.o
+ .text.exitFcn  0x00000000       0x2c ert_main.o
+ .text          0x00000000        0x0 event_groups.o
+ .data          0x00000000        0x0 event_groups.o
+ .bss           0x00000000        0x0 event_groups.o
+ .rodata.xEventGroupCreateStatic.str1.1
+                0x00000000       0x79 event_groups.o
+ .text.xEventGroupCreateStatic
+                0x00000000       0x40 event_groups.o
+ .text.xEventGroupCreate
+                0x00000000       0x30 event_groups.o
+ .text.xEventGroupWaitBits
+                0x00000000      0x14c event_groups.o
+ .text.xEventGroupClearBits
+                0x00000000       0x50 event_groups.o
+ .text.xEventGroupGetBitsFromISR
+                0x00000000       0x1c event_groups.o
+ .text.xEventGroupSetBits
+                0x00000000       0xb0 event_groups.o
+ .text.xEventGroupSync
+                0x00000000      0x100 event_groups.o
+ .text.vEventGroupDelete
+                0x00000000       0x68 event_groups.o
+ .text.vEventGroupSetBitsCallback
+                0x00000000        0x4 event_groups.o
+ .text.vEventGroupClearBitsCallback
+                0x00000000        0x4 event_groups.o
+ .comment       0x00000000       0x4d event_groups.o
+ .ARM.attributes
+                0x00000000       0x35 event_groups.o
+ .text          0x00000000        0x0 heap_4.o
+ .data          0x00000000        0x0 heap_4.o
+ .bss           0x00000000        0x0 heap_4.o
+ .text.xPortGetMinimumEverFreeHeapSize
+                0x00000000       0x10 heap_4.o
+ .text.vPortInitialiseBlocks
+                0x00000000        0x4 heap_4.o
+ .text          0x00000000        0x0 list.o
+ .data          0x00000000        0x0 list.o
+ .bss           0x00000000        0x0 list.o
+ .text          0x00000000        0x0 mw_freertos_init.o
+ .data          0x00000000        0x0 mw_freertos_init.o
+ .bss           0x00000000        0x0 mw_freertos_init.o
+ .text.mw_WaitForThisEvent
+                0x00000000        0x4 mw_freertos_init.o
+ .text.mw_AddBlockForThisEvent
+                0x00000000        0x4 mw_freertos_init.o
+ .text.mw_AddHandlerForThisEvent
+                0x00000000        0x4 mw_freertos_init.o
+ .text.mw_RestoreHandlerForThisEvent
+                0x00000000        0x4 mw_freertos_init.o
+ .text          0x00000000        0x0 mw_semaphore.o
+ .data          0x00000000        0x0 mw_semaphore.o
+ .bss           0x00000000        0x0 mw_semaphore.o
+ .text.mw_osSemaphoreWait
+                0x00000000       0x3c mw_semaphore.o
+ .text.mw_osSemaphoreDelete
+                0x00000000       0x24 mw_semaphore.o
+ .text.mw_osBinarySemaphoreCreate
+                0x00000000       0x28 mw_semaphore.o
+ .text.mw_osBinarySemaphoreTryLock
+                0x00000000       0x3c mw_semaphore.o
+ .text          0x00000000        0x0 mw_thread.o
+ .data          0x00000000        0x0 mw_thread.o
+ .bss           0x00000000        0x0 mw_thread.o
+ .text.mw_osThreadGetId
+                0x00000000        0x4 mw_thread.o
+ .text.mw_osThreadTerminate
+                0x00000000       0x10 mw_thread.o
+ .text.mw_osThreadSetPriority
+                0x00000000       0x20 mw_thread.o
+ .text.mw_osThreadGetPriority
+                0x00000000       0x18 mw_thread.o
+ .text.mw_osThreadYield
+                0x00000000        0x8 mw_thread.o
+ .text.mw_osThreadJoin
+                0x00000000       0x28 mw_thread.o
+ .text.mw_osThreadSleep
+                0x00000000        0x4 mw_thread.o
+ .text          0x00000000        0x0 mw_timer.o
+ .data          0x00000000        0x0 mw_timer.o
+ .bss           0x00000000        0x0 mw_timer.o
+ .text.mw_osTimerStop
+                0x00000000       0x4c mw_timer.o
+ .text.mw_osTimerDelete
+                0x00000000       0x4c mw_timer.o
+ .text          0x00000000        0x0 port.o
+ .data          0x00000000        0x0 port.o
+ .bss           0x00000000        0x0 port.o
+ .text.vPortEndScheduler
+                0x00000000       0x24 port.o
+ .text.vApplicationFPUSafeIRQHandler
+                0x00000000       0x10 port.o
+ .data          0x00000000        0x0 portASM.o
+ .bss           0x00000000        0x0 portASM.o
+ .text          0x00000000        0x0 queue.o
+ .data          0x00000000        0x0 queue.o
+ .bss           0x00000000        0x0 queue.o
+ .text.xQueueCreateCountingSemaphoreStatic
+                0x00000000       0x64 queue.o
+ .text.xQueueCreateMutexStatic
+                0x00000000       0x4c queue.o
+ .text.xQueueGiveMutexRecursive
+                0x00000000       0x60 queue.o
+ .text.xQueueCreateMutex
+                0x00000000       0x40 queue.o
+ .text.xQueueGiveFromISR
+                0x00000000      0x100 queue.o
+ .text.xQueueTakeMutexRecursive
+                0x00000000       0x6c queue.o
+ .text.xQueueReceiveFromISR
+                0x00000000       0xcc queue.o
+ .text.xQueuePeekFromISR
+                0x00000000       0xa0 queue.o
+ .text.uxQueueMessagesWaiting
+                0x00000000       0x30 queue.o
+ .text.uxQueueSpacesAvailable
+                0x00000000       0x38 queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x00000000       0x24 queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x00000000       0x2c queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x00000000       0x34 queue.o
+ .text.pcQueueGetName
+                0x00000000       0x3c queue.o
+ .text.vQueueUnregisterQueue
+                0x00000000       0x48 queue.o
+ .text.vQueueDelete
+                0x00000000       0x38 queue.o
+ .text.xQueueCreateSet
+                0x00000000        0xc queue.o
+ .text.xQueueAddToSet
+                0x00000000       0x3c queue.o
+ .text.xQueueRemoveFromSet
+                0x00000000       0x44 queue.o
+ .text.xQueueSelectFromSet
+                0x00000000       0x24 queue.o
+ .text.xQueueSelectFromSetFromISR
+                0x00000000       0x20 queue.o
+ .text          0x00000000        0x0 tasks.o
+ .data          0x00000000        0x0 tasks.o
+ .bss           0x00000000        0x0 tasks.o
+ .text.prvSearchForNameWithinSingleList
+                0x00000000       0x9c tasks.o
+ .text.prvTaskIsTaskSuspended
+                0x00000000       0x58 tasks.o
+ .text.eTaskGetState
+                0x00000000       0xb4 tasks.o
+ .text.uxTaskPriorityGet
+                0x00000000       0x2c tasks.o
+ .text.uxTaskPriorityGetFromISR
+                0x00000000       0x30 tasks.o
+ .text.vTaskPrioritySet
+                0x00000000      0x128 tasks.o
+ .text.vTaskResume
+                0x00000000       0xa8 tasks.o
+ .text.xTaskResumeFromISR
+                0x00000000       0xd4 tasks.o
+ .text.vTaskEndScheduler
+                0x00000000       0x20 tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x00000000       0x18 tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x00000000       0x10 tasks.o
+ .text.pcTaskGetName
+                0x00000000       0x38 tasks.o
+ .text.vTaskDelayUntil
+                0x00000000       0xcc tasks.o
+ .text.vTaskDelay
+                0x00000000       0x58 tasks.o
+ .text.xTaskGetHandle
+                0x00000000       0xbc tasks.o
+ .text.xTaskAbortDelay
+                0x00000000       0xc4 tasks.o
+ .text.vTaskSuspend
+                0x00000000      0x124 tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00000000       0x78 tasks.o
+ .text.xTaskRemoveFromUnorderedEventList
+                0x00000000       0xc8 tasks.o
+ .text.xTaskGetCurrentTaskHandle
+                0x00000000       0x10 tasks.o
+ .text.uxTaskResetEventItemValue
+                0x00000000       0x28 tasks.o
+ .text.ulTaskNotifyTake
+                0x00000000       0x8c tasks.o
+ .text.xTaskNotifyWait
+                0x00000000       0xb4 tasks.o
+ .text.xTaskGenericNotify
+                0x00000000      0x124 tasks.o
+ .text.xTaskGenericNotifyFromISR
+                0x00000000      0x16c tasks.o
+ .text.vTaskNotifyGiveFromISR
+                0x00000000      0x104 tasks.o
+ .text.xTaskNotifyStateClear
+                0x00000000       0x3c tasks.o
+ .text          0x00000000        0x0 timers.o
+ .data          0x00000000        0x0 timers.o
+ .bss           0x00000000        0x0 timers.o
+ .text.xTimerCreateStatic
+                0x00000000       0xa0 timers.o
+ .text.xTimerGetTimerDaemonTaskHandle
+                0x00000000       0x34 timers.o
+ .text.xTimerGetPeriod
+                0x00000000       0x24 timers.o
+ .text.xTimerGetExpiryTime
+                0x00000000       0x24 timers.o
+ .text.pcTimerGetName
+                0x00000000       0x24 timers.o
+ .text.xTimerIsTimerActive
+                0x00000000       0x38 timers.o
+ .text.pvTimerGetTimerID
+                0x00000000       0x30 timers.o
+ .text.vTimerSetTimerID
+                0x00000000       0x30 timers.o
+ .text.xTimerPendFunctionCallFromISR
+                0x00000000       0x3c timers.o
+ .text.xTimerPendFunctionCall
+                0x00000000       0x68 timers.o
+ .text          0x00000000        0x0 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .data          0x00000000        0x0 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .bss           0x00000000        0x0 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .text.__cyg_profile_func_enter
+                0x00000000        0x4 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .text.__cyg_profile_func_exit
+                0x00000000        0x4 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .text.__vex_function_prolog
+                0x00000000        0x4 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .text._sbrk    0x00000000       0x54 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .text._exit    0x00000000        0xc C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .text.kill     0x00000000       0x1c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .text._kill    0x00000000       0x1c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .text.getpid   0x00000000        0x8 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .text._getpid  0x00000000        0x8 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .text.__cxa_atexit
+                0x00000000        0x8 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .text.__cxa_guard_acquire
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .text.__cxa_guard_release
+                0x00000000        0xc C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .text.__cxa_guard_abort
+                0x00000000        0x4 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .text.__cxa_pure_virtual
+                0x00000000        0x4 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .bss.__dso_handle
+                0x00000000        0x4 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .bss.heap.8193
+                0x00000000        0x4 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .text          0x00000000        0x0 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .data          0x00000000        0x0 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .bss           0x00000000        0x0 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexStdlibMismatchError
+                0x00000000       0x3c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexScratchMemoryPtr
+                0x00000000       0x30 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vex_printf
+                0x00000000       0x34 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vex_sprintf
+                0x00000000       0x34 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vex_snprintf
+                0x00000000       0x34 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vex_vsnprintf
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexGettime
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexGetdate
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemMemoryDump
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemDigitalIO
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemStartupOptions
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemHighResTimeGet
+                0x00000000       0x38 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemPowerupTimeGet
+                0x00000000       0x38 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemLinkAddrGet
+                0x00000000       0x34 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemTimerGet
+                0x00000000       0x3c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemTimerEnable
+                0x00000000       0x34 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemTimerDisable
+                0x00000000       0x34 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemUsbStatus
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDevicesGetNumber
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDevicesGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGetTimestamp
+                0x00000000       0x3c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGetTimestampByIndex
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexControllerTextSet
+                0x00000000       0x6c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceLedSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceLedRgbSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceLedGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceLedRgbGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAdiPortConfigSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAdiPortConfigGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAdiValueSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAdiValueGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAdiVoltageGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceBumperGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGyroReset
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGyroHeadingGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGyroDegreesGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceSonarValueGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGenericValueGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorVelocityUpdate
+                0x00000000       0x3c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorVoltageSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorVelocityGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorActualVelocityGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorDirectionGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorModeSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorPwmSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorPwmGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorCurrentLimitSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorCurrentLimitGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorVoltageLimitSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorVoltageLimitGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorPositionPidSet
+                0x00000000       0x3c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorVelocityPidSet
+                0x00000000       0x3c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorCurrentGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorVoltageGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorPowerGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorTorqueGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorEfficiencyGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorTemperatureGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorOverTempFlagGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorCurrentLimitFlagGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorFaultsGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorZeroVelocityFlagGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorZeroPositionFlagGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorFlagsGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorReverseFlagSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorReverseFlagGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorEncoderUnitsSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorEncoderUnitsGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorBrakeModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorPositionSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorPositionGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorPositionRawGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorTargetGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorServoTargetSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorAbsoluteTargetSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorRelativeTargetSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMotorGearingGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionModeSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionObjectCountGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionObjectGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionSignatureSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionSignatureGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionBrightnessSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionBrightnessGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionWhiteBalanceModeSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionWhiteBalanceModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionWhiteBalanceSet
+                0x00000000       0x1c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionWhiteBalanceGet
+                0x00000000       0x44 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionLedModeSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionLedModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionLedBrigntnessSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionLedBrigntnessGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionLedColorSet
+                0x00000000       0x1c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionLedColorGet
+                0x00000000       0x44 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionWifiModeSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceVisionWifiModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceImuReset
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceImuHeadingGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceImuDegreesGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceImuQuaternionGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceImuAttitudeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceImuRawGyroGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceImuRawAccelGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceImuStatusGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceImuTemperatureGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceImuDebugGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceImuModeSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceImuModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceImuCollisionDataGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceImuDataRateSet
+                0x00000000       0x3c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceRangeValueGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceRadioUserDataReceive
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceRadioModeSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAbsEncReset
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAbsEncPositionSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAbsEncPositionGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAbsEncVelocityGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAbsEncAngleGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAbsEncReverseFlagSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAbsEncReverseFlagGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAbsEncStatusGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAbsEncTemperatureGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAbsEncDebugGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAbsEncModeSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAbsEncModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAbsEncOffsetSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceAbsEncOffsetGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalHueGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalSatGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalBrightnessGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalProximityGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalRgbGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalLedPwmSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalLedPwmGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalStatusGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalRawGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalDebugGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalModeSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalGestureGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalGestureEnable
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalGestureDisable
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalProximityThreshold
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalGainSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalMatrixSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceOpticalMatrixGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMagnetPowerSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMagnetPowerGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMagnetPickup
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMagnetDrop
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMagnetTemperatureGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMagnetCurrentGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMagnetStatusGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMagnetDebugGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMagnetModeSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceMagnetModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceDistanceDistanceGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceDistanceConfidenceGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceDistanceObjectSizeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceDistanceObjectVelocityGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceDistanceStatusGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceDistanceDebugGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceDistanceModeSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceDistanceModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayScroll
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayCopyRect
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayPixelSet
+                0x00000000       0x14 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayPixelClear
+                0x00000000       0x14 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayLineDraw
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayLineClear
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayRectDraw
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayRectFill
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayCircleDraw
+                0x00000000       0x14 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayCircleClear
+                0x00000000       0x14 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayCircleFill
+                0x00000000       0x14 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayPrintf
+                0x00000000       0x3c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayVPrintf
+                0x00000000       0x14 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayVString
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayVStringAt
+                0x00000000       0x14 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayBigString
+                0x00000000       0x34 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayVBigString
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayVBigStringAt
+                0x00000000       0x14 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplaySmallStringAt
+                0x00000000       0x38 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayVSmallStringAt
+                0x00000000       0x14 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayCenteredString
+                0x00000000       0x34 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayVCenteredString
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayBigCenteredString
+                0x00000000       0x34 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayVBigCenteredString
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayTextSmoothing
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayTextReference
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayScreenGrab
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayTextSize
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayTextSpacing
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayFontNamedSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayStringWidthGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayStringHeightGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayPenSizeSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayPenSizeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayFontCustomSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexFileMountSD
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexFileDirectoryGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexFileOpen
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexFileOpenWrite
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexFileOpenCreate
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexFileClose
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexFileRead
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexFileWrite
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexFileSize
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexFileSeek
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexFileDriveStatus
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexFileTell
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSerialWriteChar
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSerialReadChar
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSerialPeekChar
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSerialEnableRemoteConsole
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSerialWriteFree
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemUndefinedException
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemIRQInterrupt
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemSWInterrupt
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemUserWriteInstall
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemSysWriteInstall
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemSysReadInstall
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemSysOpenInstall
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemSysCloseInstall
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemSysLseekInstall
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemSysFstatInstall
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemSysFcntlInstall
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemSysIsattyInstall
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemFileReopen
+                0x00000000       0x4c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemStdlibImpurePtrAddr
+                0x00000000       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemStdlibImpureDataAddr
+                0x00000000       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemStdlibImpureDataSize
+                0x00000000       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexTouchDataGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexImageBmpRead
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexImagePngRead
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayClearVsyncState
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayGetVsyncState
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayClipRegionSet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayClipRegionClear
+                0x00000000       0x14 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayRotateFlagGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayThemeIdGet
+                0x00000000       0x34 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayRender
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDisplayDoubleBufferDisable
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemAppDataRes1Get
+                0x00000000       0x34 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemAppExtendedDataGet
+                0x00000000       0x44 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexSystemAppDebugDataGet
+                0x00000000       0x44 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexCompetitionStatus
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexCompetitionControl
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexBatteryVoltageGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexBatteryCurrentGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexBatteryTemperatureGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexBatteryCapacityGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexBatteryDataGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexBatteryDataSet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceEventMaskSet
+                0x00000000       0x44 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceEventMaskGet
+                0x00000000       0x3c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceEventDataSet
+                0x00000000       0x44 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceEventDataGet
+                0x00000000       0x3c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceEventBitsSet
+                0x00000000       0x44 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceEventBitsGet
+                0x00000000       0x3c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGenericSerialEnable
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGenericSerialBaudrate
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGenericSerialWriteChar
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGenericSerialWriteFree
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGenericSerialTransmit
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGenericSerialReadChar
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGenericSerialPeekChar
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGenericSerialReceiveAvail
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGenericSerialReceive
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGenericSerialFlush
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text.vexDeviceGenericSerialDisableAll
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .bss.lastTime.8933
+                0x00000000        0x4 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .text          0x00000000        0x0 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .data          0x00000000        0x0 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .bss           0x00000000        0x0 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexDelay
+                0x00000000       0x30 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexLedSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexLedRgbSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexLedGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexLedRgbGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAdiPortConfigSet
+                0x00000000       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAdiPortConfigGet
+                0x00000000       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAdiValueSet
+                0x00000000       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAdiValueGet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAdiVoltageGet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexBumperGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexGyroReset
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexGyroHeadingGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexGyroDegreesGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexSonarValueGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexGenericValueGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorVelocityUpdate
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorVoltageSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorVelocityGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorActualVelocityGet
+                0x00000000       0x24 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorDirectionGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorModeSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorModeGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorPwmSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorPwmGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorCurrentLimitSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorCurrentLimitGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorVoltageLimitSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorVoltageLimitGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorPositionPidSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorVelocityPidSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorCurrentGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorVoltageGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorPowerGet
+                0x00000000       0x24 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorTorqueGet
+                0x00000000       0x24 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorEfficiencyGet
+                0x00000000       0x24 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorTemperatureGet
+                0x00000000       0x24 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorOverTempFlagGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorCurrentLimitFlagGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorFaultsGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorZeroVelocityFlagGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorZeroPositionFlagGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorFlagsGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorReverseFlagSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorReverseFlagGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorEncoderUnitsSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorEncoderUnitsGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorBrakeModeGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorPositionSet
+                0x00000000       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorPositionGet
+                0x00000000       0x24 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorPositionRawGet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorTargetGet
+                0x00000000       0x24 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorServoTargetSet
+                0x00000000       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorAbsoluteTargetSet
+                0x00000000       0x30 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorRelativeTargetSet
+                0x00000000       0x30 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMotorGearingGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionModeSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionModeGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionObjectCountGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionObjectGet
+                0x00000000       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionSignatureSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionSignatureGet
+                0x00000000       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionBrightnessSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionBrightnessGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionWhiteBalanceModeSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionWhiteBalanceModeGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionWhiteBalanceSet
+                0x00000000       0x2c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionWhiteBalanceGet
+                0x00000000       0x58 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionLedModeSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionLedModeGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionLedBrigntnessSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionLedBrigntnessGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionLedColorSet
+                0x00000000       0x2c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionLedColorGet
+                0x00000000       0x58 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionWifiModeSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexVisionWifiModeGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexImuReset
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexImuHeadingGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexImuDegreesGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexImuQuaternionGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexImuAttitudeGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexImuRawGyroGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexImuRawAccelGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexImuStatusGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexImuTemperatureGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexImuDebugGet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexImuModeSet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexImuModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexImuCollisionDataGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexImuDataRateSet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexRangeValueGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexRadioUserDataReceive
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexRadioModeSet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAbsEncReset
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAbsEncPositionSet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAbsEncPositionGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAbsEncVelocityGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAbsEncAngleGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAbsEncReverseFlagSet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAbsEncReverseFlagGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAbsEncStatusGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAbsEncTemperatureGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAbsEncDebugGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAbsEncModeSet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAbsEncModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAbsEncOffsetSet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexAbsEncOffsetGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalHueGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalSatGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalBrightnessGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalProximityGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalRgbGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalLedPwmSet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalLedPwmGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalStatusGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalRawGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalDebugGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalModeSet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalGestureGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalGestureEnable
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalGestureDisable
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalProximityThreshold
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalGainSet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalMatrixSet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexOpticalMatrixGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMagnetPowerSet
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMagnetPowerGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMagnetPickup
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMagnetDrop
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMagnetTemperatureGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMagnetCurrentGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMagnetStatusGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMagnetDebugGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMagnetModeSet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexMagnetModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexDistanceDistanceGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexDistanceConfidenceGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexDistanceObjectSizeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexDistanceObjectVelocityGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexDistanceStatusGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexDistanceDebugGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexDistanceModeSet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexDistanceModeGet
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexEventMaskSet
+                0x00000000       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexEventMaskGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexEventDataSet
+                0x00000000       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexEventDataGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexEventBitsSet
+                0x00000000       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexEventBitsGet
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexGenericSerialEnable
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexGenericSerialBaudrate
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexGenericSerialWriteChar
+                0x00000000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexGenericSerialWriteFree
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexGenericSerialTransmit
+                0x00000000       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexGenericSerialReadChar
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexGenericSerialPeekChar
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexGenericSerialReceiveAvail
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexGenericSerialReceive
+                0x00000000       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexGenericSerialFlush
+                0x00000000       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexGenericSerialDisableAll
+                0x00000000        0x4 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text.vexCodeSigOptions
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .text          0x00000000        0x0 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiversions.c.obj)
+ .data          0x00000000        0x0 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiversions.c.obj)
+ .bss           0x00000000        0x0 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiversions.c.obj)
+ .text.vexSystemVersion
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiversions.c.obj)
+ .text.vexStdlibVersion
+                0x00000000       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiversions.c.obj)
+ .text.vexSdkVersion
+                0x00000000        0xc C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiversions.c.obj)
+ .comment       0x00000000       0x71 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiversions.c.obj)
+ .ARM.attributes
+                0x00000000       0x35 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiversions.c.obj)
+ .text          0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-fini.o)
+ .data          0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-fini.o)
+ .text          0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strcpy.o)
+ .bss           0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strncpy.o)
+ .data          0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strncpy.o)
+ .bss           0x00000000        0x0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strncpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ps7_ddr_0_S_AXI_BASEADDR 0x03800000         0x04800000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD FreeRTOS_asm_vectors.o
+LOAD MW_FreeRTOS_glue.o
+LOAD MW_SupportFunc_Wrapper.o
+LOAD MW_TabManager.o
+LOAD MW_Vex_TaskControl.o
+LOAD croutine.o
+LOAD driver1.o
+LOAD driver1_data.o
+LOAD ert_main.o
+LOAD event_groups.o
+LOAD heap_4.o
+LOAD list.o
+LOAD mw_freertos_init.o
+LOAD mw_semaphore.o
+LOAD mw_thread.o
+LOAD mw_timer.o
+LOAD port.o
+LOAD portASM.o
+LOAD queue.o
+LOAD tasks.o
+LOAD timers.o
+LOAD C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a
+LOAD c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libm.a
+LOAD c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a
+LOAD c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-a+simd/softfp/libgcc.a
+LOAD c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libnosys.a
+LOAD c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp\libm.a
+                0x00002000                _STACK_SIZE = DEFINED (_STACK_SIZE)?_STACK_SIZE:0x2000
+                0x00100000                _HEAP_SIZE = DEFINED (_HEAP_SIZE)?_HEAP_SIZE:0x100000
+                0x00000400                _ABORT_STACK_SIZE = DEFINED (_ABORT_STACK_SIZE)?_ABORT_STACK_SIZE:0x400
+                0x00000800                _SUPERVISOR_STACK_SIZE = DEFINED (_SUPERVISOR_STACK_SIZE)?_SUPERVISOR_STACK_SIZE:0x800
+                0x00000400                _IRQ_STACK_SIZE = DEFINED (_IRQ_STACK_SIZE)?_IRQ_STACK_SIZE:0x400
+                0x00000400                _FIQ_STACK_SIZE = DEFINED (_FIQ_STACK_SIZE)?_FIQ_STACK_SIZE:0x400
+                0x00000400                _UNDEF_STACK_SIZE = DEFINED (_UNDEF_STACK_SIZE)?_UNDEF_STACK_SIZE:0x400
+
+.text           0x03800000     0x5038
+ *(.vectors)
+ *(.boot_data)
+ .boot_data     0x03800000       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+                0x03800000                vexCodeSig
+                0x00000020                . = 0x20
+ *(.boot)
+ .boot          0x03800020       0x58 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+                0x03800020                vexStartup
+                0x03800080                . = ALIGN (0x40)
+ *fill*         0x03800078        0x8 
+ *(.freertos_vectors)
+ .freertos_vectors
+                0x03800080       0xa8 FreeRTOS_asm_vectors.o
+                0x03800080                _freertos_vector_table
+                0x03800110                vPortInstallFreeRTOSVectorTable
+ *(.text)
+ *fill*         0x03800128        0x8 
+ .text          0x03800130      0x2e0 portASM.o
+                0x03800130                FreeRTOS_SWI_Handler
+                0x038001d8                vPortRestoreTaskContext
+                0x03800240                FreeRTOS_IRQ_Handler
+                0x038003b0                vApplicationIRQHandler
+ *fill*         0x03800410       0x30 
+ .text          0x03800440      0x4e0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-memcpy.o)
+                0x03800440                memcpy
+ *fill*         0x03800920       0x20 
+ .text          0x03800940       0xdc c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strlen.o)
+                0x03800940                strlen
+ *(.text.*)
+ .text.FIQInterrupt
+                0x03800a1c        0x4 MW_FreeRTOS_glue.o
+                0x03800a1c                FIQInterrupt
+ .text.DataAbortInterrupt
+                0x03800a20        0x4 MW_FreeRTOS_glue.o
+                0x03800a20                DataAbortInterrupt
+ .text.PrefetchAbortInterrupt
+                0x03800a24        0x4 MW_FreeRTOS_glue.o
+                0x03800a24                PrefetchAbortInterrupt
+ .text._boot    0x03800a28        0x4 MW_FreeRTOS_glue.o
+                0x03800a28                _boot
+ .text.FreeRTOS_Initialize
+                0x03800a2c       0x14 MW_FreeRTOS_glue.o
+                0x03800a2c                FreeRTOS_Initialize
+ .text.vConfigureTickInterrupt
+                0x03800a40       0x10 MW_FreeRTOS_glue.o
+                0x03800a40                vConfigureTickInterrupt
+ .text.vClearTickInterrupt
+                0x03800a50        0x4 MW_FreeRTOS_glue.o
+                0x03800a50                vClearTickInterrupt
+ .text.vApplicationFPUSafeIRQHandler
+                0x03800a54        0x4 MW_FreeRTOS_glue.o
+                0x03800a54                vApplicationFPUSafeIRQHandler
+ .text.vInitialiseTimerForRunTimeStats
+                0x03800a58        0x4 MW_FreeRTOS_glue.o
+                0x03800a58                vInitialiseTimerForRunTimeStats
+ .text.vApplicationMallocFailedHook
+                0x03800a5c        0xc MW_FreeRTOS_glue.o
+                0x03800a5c                vApplicationMallocFailedHook
+ .text.vApplicationStackOverflowHook
+                0x03800a68        0xc MW_FreeRTOS_glue.o
+                0x03800a68                vApplicationStackOverflowHook
+ .text.vApplicationIdleHook
+                0x03800a74       0x1c MW_FreeRTOS_glue.o
+                0x03800a74                vApplicationIdleHook
+ .text.vAssertCalled
+                0x03800a90       0x30 MW_FreeRTOS_glue.o
+                0x03800a90                vAssertCalled
+ .text.vApplicationTickHook
+                0x03800ac0        0x4 MW_FreeRTOS_glue.o
+                0x03800ac0                vApplicationTickHook
+ .text.vApplicationGetIdleTaskMemory
+                0x03800ac4       0x24 MW_FreeRTOS_glue.o
+                0x03800ac4                vApplicationGetIdleTaskMemory
+ .text.vApplicationGetTimerTaskMemory
+                0x03800ae8       0x24 MW_FreeRTOS_glue.o
+                0x03800ae8                vApplicationGetTimerTaskMemory
+ .text.Vexv5_Initialize
+                0x03800b0c       0x10 MW_SupportFunc_Wrapper.o
+                0x03800b0c                Vexv5_Initialize
+ .text.usbDebug
+                0x03800b1c       0x4c MW_SupportFunc_Wrapper.o
+                0x03800b1c                usbDebug
+ .text.DevicePresent
+                0x03800b68       0x9c MW_SupportFunc_Wrapper.o
+                0x03800b68                DevicePresent
+ .text.MW_TabMgr_IsOtherTabActive
+                0x03800c04       0x2c MW_TabManager.o
+                0x03800c04                MW_TabMgr_IsOtherTabActive
+ .text.MW_TabMgr_GetTotalTabs
+                0x03800c30       0x24 MW_TabManager.o
+                0x03800c30                MW_TabMgr_GetTotalTabs
+ .text.MW_TabMgr_GetTabTitle
+                0x03800c54       0xa8 MW_TabManager.o
+                0x03800c54                MW_TabMgr_GetTabTitle
+ .text.MW_TabMgr_DrawButton
+                0x03800cfc       0xe4 MW_TabManager.o
+                0x03800cfc                MW_TabMgr_DrawButton
+ .text.MW_TabMgr_DrawButtons
+                0x03800de0       0x88 MW_TabManager.o
+                0x03800de0                MW_TabMgr_DrawButtons
+ .text.MW_TabMgr_DrawTabHeader
+                0x03800e68       0x90 MW_TabManager.o
+                0x03800e68                MW_TabMgr_DrawTabHeader
+ .text.MW_TabMgr_RegisterTabHelper
+                0x03800ef8       0xbc MW_TabManager.o
+                0x03800ef8                MW_TabMgr_RegisterTabHelper
+ .text.MW_TabMgr_RegisterOtherTab
+                0x03800fb4       0x38 MW_TabManager.o
+                0x03800fb4                MW_TabMgr_RegisterOtherTab
+ .text.MW_TabMgr_ButtonCheckRange
+                0x03800fec       0x48 MW_TabManager.o
+                0x03800fec                MW_TabMgr_ButtonCheckRange
+ .text.MW_Buttons_Callback_Released
+                0x03801034       0x4c MW_TabManager.o
+                0x03801034                MW_Buttons_Callback_Released
+ .text.vexDisplayMessageTabInit
+                0x03801080       0x4c MW_TabManager.o
+                0x03801080                vexDisplayMessageTabInit
+ .text.MW_TabMgr_Init
+                0x038010cc       0x60 MW_TabManager.o
+                0x038010cc                MW_TabMgr_Init
+ .text.vexDisplayAllActiveMessages
+                0x0380112c       0x58 MW_TabManager.o
+                0x0380112c                vexDisplayAllActiveMessages
+ .text.MW_TabMgr_Redraw
+                0x03801184       0x94 MW_TabManager.o
+                0x03801184                MW_TabMgr_Redraw
+ .text.MW_Buttons_Callback_Pressed
+                0x03801218       0x9c MW_TabManager.o
+                0x03801218                MW_Buttons_Callback_Pressed
+ .text.MW_TouchCallback
+                0x038012b4       0x24 MW_TabManager.o
+                0x038012b4                MW_TouchCallback
+ .text.vexDisplayMessageIsActive
+                0x038012d8       0x3c MW_TabManager.o
+                0x038012d8                vexDisplayMessageIsActive
+ .text.vexDisplayMessageOnScreen
+                0x03801314       0xe4 MW_TabManager.o
+                0x03801314                vexDisplayMessageOnScreen
+ .text.MW_Vex_Terminate
+                0x038013f8       0x10 MW_Vex_TaskControl.o
+                0x038013f8                MW_Vex_Terminate
+ .text.driver1_step
+                0x03801408      0x520 driver1.o
+                0x03801408                driver1_step
+ .text.driver1_initialize
+                0x03801928      0x210 driver1.o
+                0x03801928                driver1_initialize
+ .text.driver1_terminate
+                0x03801b38      0x210 driver1.o
+                0x03801b38                driver1_terminate
+ .text.terminateTask
+                0x03801d48       0x40 ert_main.o
+                0x03801d48                terminateTask
+ .text.baseRateTask
+                0x03801d88       0x84 ert_main.o
+                0x03801d88                baseRateTask
+ .text.startup.main
+                0x03801e0c       0x44 ert_main.o
+                0x03801e0c                main
+ .text.prvInsertBlockIntoFreeList
+                0x03801e50       0x74 heap_4.o
+ .text.pvPortMalloc
+                0x03801ec4      0x1bc heap_4.o
+                0x03801ec4                pvPortMalloc
+ .text.vPortFree
+                0x03802080       0xa0 heap_4.o
+                0x03802080                vPortFree
+ .text.xPortGetFreeHeapSize
+                0x03802120       0x10 heap_4.o
+                0x03802120                xPortGetFreeHeapSize
+ .text.vListInitialise
+                0x03802130       0x20 list.o
+                0x03802130                vListInitialise
+ .text.vListInitialiseItem
+                0x03802150        0xc list.o
+                0x03802150                vListInitialiseItem
+ .text.vListInsertEnd
+                0x0380215c       0x30 list.o
+                0x0380215c                vListInsertEnd
+ .text.vListInsert
+                0x0380218c       0x54 list.o
+                0x0380218c                vListInsert
+ .text.uxListRemove
+                0x038021e0       0x34 list.o
+                0x038021e0                uxListRemove
+ .text.schedulerTask
+                0x03802214        0xc mw_freertos_init.o
+                0x03802214                schedulerTask
+ .text.baseRateTaskWrapper
+                0x03802220        0x4 mw_freertos_init.o
+                0x03802220                baseRateTaskWrapper
+ .text.mw_RTOSInit
+                0x03802224      0x144 mw_freertos_init.o
+                0x03802224                mw_RTOSInit
+ .text.mw_osSemaphoreCreate
+                0x03802368       0x1c mw_semaphore.o
+                0x03802368                mw_osSemaphoreCreate
+ .text.mw_osSemaphoreWaitEver
+                0x03802384       0x3c mw_semaphore.o
+                0x03802384                mw_osSemaphoreWaitEver
+ .text.mw_osSemaphoreRelease
+                0x038023c0       0x3c mw_semaphore.o
+                0x038023c0                mw_osSemaphoreRelease
+ .text.mw_osThreadCreate
+                0x038023fc       0x68 mw_thread.o
+                0x038023fc                mw_osThreadCreate
+ .text.mw_osThreadExit
+                0x03802464        0x8 mw_thread.o
+                0x03802464                mw_osThreadExit
+ .text.mw_osTimerCreate
+                0x0380246c       0x30 mw_timer.o
+                0x0380246c                mw_osTimerCreate
+ .text.mw_osTimerStart
+                0x0380249c       0x50 mw_timer.o
+                0x0380249c                mw_osTimerStart
+ .text.pxPortInitialiseStack
+                0x038024ec       0xf0 port.o
+                0x038024ec                pxPortInitialiseStack
+ .text.xPortStartScheduler
+                0x038025dc       0xe8 port.o
+                0x038025dc                xPortStartScheduler
+ .text.vPortExitCritical
+                0x038026c4       0x5c port.o
+                0x038026c4                vPortExitCritical
+ .text.FreeRTOS_Tick_Handler
+                0x03802720       0x7c port.o
+                0x03802720                FreeRTOS_Tick_Handler
+ .text.vPortClearInterruptMask
+                0x0380279c       0x3c port.o
+                0x0380279c                vPortClearInterruptMask
+ .text.ulPortSetInterruptMask
+                0x038027d8       0x48 port.o
+                0x038027d8                ulPortSetInterruptMask
+ .text.vPortEnterCritical
+                0x03802820       0x50 port.o
+                0x03802820                vPortEnterCritical
+ .text.vPortValidateInterruptPriority
+                0x03802870       0x4c port.o
+                0x03802870                vPortValidateInterruptPriority
+ .text.prvCopyDataToQueue
+                0x038028bc       0xcc queue.o
+ .text.prvNotifyQueueSetContainer
+                0x03802988       0xb0 queue.o
+ .text.prvCopyDataFromQueue
+                0x03802a38       0x38 queue.o
+ .text.prvUnlockQueue
+                0x03802a70       0xc8 queue.o
+ .text.xQueueGenericReset
+                0x03802b38       0xa8 queue.o
+                0x03802b38                xQueueGenericReset
+ .text.xQueueGenericCreateStatic
+                0x03802be0       0xdc queue.o
+                0x03802be0                xQueueGenericCreateStatic
+ .text.xQueueGenericCreate
+                0x03802cbc       0x70 queue.o
+                0x03802cbc                xQueueGenericCreate
+ .text.xQueueCreateCountingSemaphore
+                0x03802d2c       0x50 queue.o
+                0x03802d2c                xQueueCreateCountingSemaphore
+ .text.xQueueGenericSend
+                0x03802d7c      0x1ec queue.o
+                0x03802d7c                xQueueGenericSend
+ .text.xQueueGenericSendFromISR
+                0x03802f68      0x128 queue.o
+                0x03802f68                xQueueGenericSendFromISR
+ .text.xQueueGenericReceive
+                0x03803090      0x1fc queue.o
+                0x03803090                xQueueGenericReceive
+ .text.vQueueAddToRegistry
+                0x0380328c       0x3c queue.o
+                0x0380328c                vQueueAddToRegistry
+ .text.vQueueWaitForMessageRestricted
+                0x038032c8       0x60 queue.o
+                0x038032c8                vQueueWaitForMessageRestricted
+ .text.prvAddNewTaskToReadyList
+                0x03803328      0x160 tasks.o
+ .text.prvAddCurrentTaskToDelayedList
+                0x03803488       0xf8 tasks.o
+ .text.prvResetNextTaskUnblockTime
+                0x03803580       0x38 tasks.o
+ .text.prvInitialiseNewTask.isra.0
+                0x038035b8       0xbc tasks.o
+ .text.prvDeleteTCB
+                0x03803674       0x48 tasks.o
+ .text.xTaskCreateStatic
+                0x038036bc       0x88 tasks.o
+                0x038036bc                xTaskCreateStatic
+ .text.xTaskCreate
+                0x03803744       0x90 tasks.o
+                0x03803744                xTaskCreate
+ .text.vTaskDelete
+                0x038037d4      0x134 tasks.o
+                0x038037d4                vTaskDelete
+ .text.vTaskStartScheduler
+                0x03803908       0xc4 tasks.o
+                0x03803908                vTaskStartScheduler
+ .text.vTaskSuspendAll
+                0x038039cc       0x18 tasks.o
+                0x038039cc                vTaskSuspendAll
+ .text.xTaskGetTickCount
+                0x038039e4       0x10 tasks.o
+                0x038039e4                xTaskGetTickCount
+ .text.xTaskIncrementTick
+                0x038039f4      0x1c0 tasks.o
+                0x038039f4                xTaskIncrementTick
+ .text.xTaskResumeAll
+                0x03803bb4      0x154 tasks.o
+                0x03803bb4                xTaskResumeAll
+ .text.prvIdleTask
+                0x03803d08       0x98 tasks.o
+ .text.vTaskSwitchContext
+                0x03803da0      0x110 tasks.o
+                0x03803da0                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x03803eb0       0x48 tasks.o
+                0x03803eb0                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnEventListRestricted
+                0x03803ef8       0x54 tasks.o
+                0x03803ef8                vTaskPlaceOnEventListRestricted
+ .text.xTaskRemoveFromEventList
+                0x03803f4c       0xc0 tasks.o
+                0x03803f4c                xTaskRemoveFromEventList
+ .text.vTaskSetTimeOutState
+                0x0380400c       0x40 tasks.o
+                0x0380400c                vTaskSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x0380404c       0xd0 tasks.o
+                0x0380404c                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x0380411c       0x14 tasks.o
+                0x0380411c                vTaskMissedYield
+ .text.xTaskGetSchedulerState
+                0x03804130       0x38 tasks.o
+                0x03804130                xTaskGetSchedulerState
+ .text.vTaskPriorityInherit
+                0x03804168       0xdc tasks.o
+                0x03804168                vTaskPriorityInherit
+ .text.xTaskPriorityDisinherit
+                0x03804244       0xfc tasks.o
+                0x03804244                xTaskPriorityDisinherit
+ .text.pvTaskIncrementMutexHeldCount
+                0x03804340       0x28 tasks.o
+                0x03804340                pvTaskIncrementMutexHeldCount
+ .text.prvCheckForValidListAndQueue
+                0x03804368       0x98 timers.o
+ .text.prvInsertTimerInActiveList
+                0x03804400       0x70 timers.o
+ .text.xTimerCreateTimerTask
+                0x03804470       0xa4 timers.o
+                0x03804470                xTimerCreateTimerTask
+ .text.xTimerCreate
+                0x03804514       0x70 timers.o
+                0x03804514                xTimerCreate
+ .text.xTimerGenericCommand
+                0x03804584       0x88 timers.o
+                0x03804584                xTimerGenericCommand
+ .text.prvSwitchTimerLists
+                0x0380460c       0xcc timers.o
+ .text.prvTimerTask
+                0x038046d8      0x2c8 timers.o
+ .text.vexMain  0x038049a0       0xa0 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+                0x038049a0                vexMain
+ .text._init    0x03804a40        0x4 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+                0x03804a40                _init
+ .text._fini    0x03804a44        0x4 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+                0x03804a44                _fini
+ .text.vexPrivateApiDisable
+                0x03804a48       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804a48                vexPrivateApiDisable
+ .text.vexBackgroundProcessing
+                0x03804a58       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804a58                vexBackgroundProcessing
+ .text.vexDebug
+                0x03804a68       0x34 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804a68                vexDebug
+ .text.vex_vsprintf
+                0x03804a9c       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804a9c                vex_vsprintf
+ .text.vexSystemTimeGet
+                0x03804aac       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804aac                vexSystemTimeGet
+ .text.vexSystemExitRequest
+                0x03804abc       0x1c C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804abc                vexSystemExitRequest
+ .text.vexDevicesGetNumberByType
+                0x03804ad8       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804ad8                vexDevicesGetNumberByType
+ .text.vexDeviceGetByIndex
+                0x03804ae8       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804ae8                vexDeviceGetByIndex
+ .text.vexDeviceGetStatus
+                0x03804af8       0x28 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804af8                vexDeviceGetStatus
+ .text.vexControllerGet
+                0x03804b20       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804b20                vexControllerGet
+ .text.vexControllerConnectionStatusGet
+                0x03804b30       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804b30                vexControllerConnectionStatusGet
+ .text.vexDeviceMotorVelocitySet
+                0x03804b40       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804b40                vexDeviceMotorVelocitySet
+ .text.vexDeviceMotorBrakeModeSet
+                0x03804b50       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804b50                vexDeviceMotorBrakeModeSet
+ .text.vexDeviceMotorPositionReset
+                0x03804b60       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804b60                vexDeviceMotorPositionReset
+ .text.vexDeviceMotorGearingSet
+                0x03804b70       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804b70                vexDeviceMotorGearingSet
+ .text.vexDisplayForegroundColor
+                0x03804b80       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804b80                vexDisplayForegroundColor
+ .text.vexDisplayBackgroundColor
+                0x03804b90       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804b90                vexDisplayBackgroundColor
+ .text.vexDisplayForegroundColorGet
+                0x03804ba0       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804ba0                vexDisplayForegroundColorGet
+ .text.vexDisplayBackgroundColorGet
+                0x03804bb0       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804bb0                vexDisplayBackgroundColorGet
+ .text.vexDisplayErase
+                0x03804bc0       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804bc0                vexDisplayErase
+ .text.vexDisplayScrollRect
+                0x03804bd0       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804bd0                vexDisplayScrollRect
+ .text.vexDisplayRectClear
+                0x03804be8       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804be8                vexDisplayRectClear
+ .text.vexDisplayString
+                0x03804c00       0x34 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804c00                vexDisplayString
+ .text.vexDisplayStringAt
+                0x03804c34       0x38 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804c34                vexDisplayStringAt
+ .text.vexDisplayBigStringAt
+                0x03804c6c       0x38 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804c6c                vexDisplayBigStringAt
+ .text.vexSerialWriteBuffer
+                0x03804ca4       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804ca4                vexSerialWriteBuffer
+ .text.vexSystemTimerStop
+                0x03804cb4       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804cb4                vexSystemTimerStop
+ .text.vexSystemTimerClearInterrupt
+                0x03804cc4       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804cc4                vexSystemTimerClearInterrupt
+ .text.vexSystemTimerReinitForRtos
+                0x03804cd4       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804cd4                vexSystemTimerReinitForRtos
+ .text.vexSystemApplicationIRQHandler
+                0x03804ce4       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804ce4                vexSystemApplicationIRQHandler
+ .text.vexSystemWatchdogReinitRtos
+                0x03804cf4       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804cf4                vexSystemWatchdogReinitRtos
+ .text.vexSystemWatchdogGet
+                0x03804d04       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804d04                vexSystemWatchdogGet
+ .text.vexSystemBoot
+                0x03804d14       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804d14                vexSystemBoot
+ .text.vexSystemFIQInterrupt
+                0x03804d24       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804d24                vexSystemFIQInterrupt
+ .text.vexSystemDataAbortInterrupt
+                0x03804d34       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804d34                vexSystemDataAbortInterrupt
+ .text.vexSystemPrefetchAbortInterrupt
+                0x03804d44       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804d44                vexSystemPrefetchAbortInterrupt
+ .text.vexTouchUserCallbackSet
+                0x03804d54       0x10 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+                0x03804d54                vexTouchUserCallbackSet
+ .text.vexMotorVelocitySet
+                0x03804d64       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+                0x03804d64                vexMotorVelocitySet
+ .text.vexMotorBrakeModeSet
+                0x03804d84       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+                0x03804d84                vexMotorBrakeModeSet
+ .text.vexMotorPositionReset
+                0x03804da4       0x18 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+                0x03804da4                vexMotorPositionReset
+ .text.vexMotorGearingSet
+                0x03804dbc       0x20 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+                0x03804dbc                vexMotorGearingSet
+ .text.__libc_fini_array
+                0x03804ddc       0x2c c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-fini.o)
+                0x03804ddc                __libc_fini_array
+ .text.__libc_init_array
+                0x03804e08       0x50 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-init.o)
+                0x03804e08                __libc_init_array
+ .text.memset   0x03804e58       0xa0 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-memset.o)
+                0x03804e58                memset
+ .text.strcpy   0x03804ef8       0xc4 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strcpy.o)
+                0x03804ef8                strcpy
+ .text.strncpy  0x03804fbc       0x74 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strncpy.o)
+                0x03804fbc                strncpy
+ .text.strncpy.__stub
+                0x03805030        0x8 linker stubs
+ *(.gnu.linkonce.t.*)
+ *(.plt)
+ *(.gnu_warning)
+ *(.gcc_except_table)
+ *(.glue_7)
+ .glue_7        0x03805038        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x03805038        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x03805038        0x0 linker stubs
+ *(.ARM.extab)
+ *(.gnu.linkonce.armextab.*)
+
+.v4_bx          0x03805038        0x0
+ .v4_bx         0x03805038        0x0 linker stubs
+
+.iplt           0x03805038        0x0
+ .iplt          0x03805038        0x0 FreeRTOS_asm_vectors.o
+
+.init
+ *(.init)
+
+.fini
+ *(.fini)
+
+.rodata         0x03805038      0x46c
+                0x03805038                __rodata_start = .
+ *(.rodata)
+ *(.rodata.*)
+ .rodata.DevicePresent.str1.1
+                0x03805038       0xc9 MW_SupportFunc_Wrapper.o
+ .rodata.MW_TabMgr_DrawButton.str1.1
+                0x03805101        0x6 MW_TabManager.o
+ .rodata.MW_TabMgr_DrawButtons.str1.1
+                0x03805107        0xa MW_TabManager.o
+ .rodata.vexDisplayMessageTabInit.str1.1
+                0x03805111        0xc MW_TabManager.o
+ *fill*         0x0380511d        0x3 
+ .rodata.driver1_M
+                0x03805120        0x4 driver1.o
+                0x03805120                driver1_M
+ .rodata.pvPortMalloc.str1.1
+                0x03805124       0x84 heap_4.o
+ .rodata.mw_RTOSInit.str1.1
+                0x038051a8       0x73 mw_freertos_init.o
+ .rodata.mw_osThreadCreate.str1.1
+                0x0380521b       0x5c mw_thread.o
+ .rodata.xPortStartScheduler.str1.1
+                0x03805277       0x86 port.o
+ *fill*         0x038052fd        0x3 
+ .rodata.ulICCEOIR
+                0x03805300        0x4 port.o
+                0x03805300                ulICCEOIR
+ .rodata.ulICCIAR
+                0x03805304        0x4 port.o
+                0x03805304                ulICCIAR
+ .rodata.ulICCPMR
+                0x03805308        0x4 port.o
+                0x03805308                ulICCPMR
+ .rodata.ulMaxAPIPriorityMask
+                0x0380530c        0x4 port.o
+                0x0380530c                ulMaxAPIPriorityMask
+ .rodata.prvNotifyQueueSetContainer.str1.1
+                0x03805310       0x72 queue.o
+ .rodata.prvTaskIsTaskSuspended.str1.1
+                0x03805382       0x72 tasks.o
+ .rodata.vTaskStartScheduler.str1.1
+                0x038053f4        0x5 tasks.o
+ .rodata.prvCheckForValidListAndQueue.str1.1
+                0x038053f9        0x5 timers.o
+ .rodata.xTimerCreateTimerTask.str1.1
+                0x038053fe       0x7b timers.o
+ .rodata.str1.1
+                0x03805479       0x2b C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ *(.gnu.linkonce.r.*)
+                0x038054a4                __rodata_end = .
+
+.rel.dyn        0x038054a4        0x0
+ .rel.iplt      0x038054a4        0x0 FreeRTOS_asm_vectors.o
+
+.rodata1        0x038054a4        0x0
+                0x038054a4                __rodata1_start = .
+ *(.rodata1)
+ *(.rodata1.*)
+                0x038054a4                __rodata1_end = .
+
+.sdata2         0x038054a4        0x0
+                0x038054a4                __sdata2_start = .
+ *(.sdata2)
+ *(.sdata2.*)
+ *(.gnu.linkonce.s2.*)
+                0x038054a4                __sdata2_end = .
+
+.sbss2          0x038054a4        0x0
+                0x038054a4                __sbss2_start = .
+ *(.sbss2)
+ *(.sbss2.*)
+ *(.gnu.linkonce.sb2.*)
+                0x038054a4                __sbss2_end = .
+
+.data           0x038054a8       0xc4
+                0x038054a8                __data_start = .
+ *(.data)
+ *(.data.*)
+ .data.activeTab
+                0x038054a8        0x1 MW_TabManager.o
+ *fill*         0x038054a9        0x7 
+ .data.driver1_P
+                0x038054b0       0xb0 driver1_data.o
+                0x038054b0                driver1_P
+ .data.runModel
+                0x03805560        0x1 ert_main.o
+                0x03805560                runModel
+ *fill*         0x03805561        0x3 
+ .data.ulCriticalNesting
+                0x03805564        0x4 port.o
+                0x03805564                ulCriticalNesting
+ .data.appRunning
+                0x03805568        0x4 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+                0x03805568                appRunning
+ *(.gnu.linkonce.d.*)
+ *(.jcr)
+ *(.got)
+ *(.got.plt)
+                0x0380556c                __data_end = .
+
+.igot.plt       0x0380556c        0x0
+ .igot.plt      0x0380556c        0x0 FreeRTOS_asm_vectors.o
+
+.data1          0x0380556c        0x0
+                0x0380556c                __data1_start = .
+ *(.data1)
+ *(.data1.*)
+                0x0380556c                __data1_end = .
+
+.got
+ *(.got)
+
+.ctors          0x0380556c        0x0
+                0x0380556c                __CTOR_LIST__ = .
+                0x0380556c                ___CTORS_LIST___ = .
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                0x0380556c                __CTOR_END__ = .
+                0x0380556c                ___CTORS_END___ = .
+
+.dtors          0x0380556c        0x0
+                0x0380556c                __DTOR_LIST__ = .
+                0x0380556c                ___DTORS_LIST___ = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                0x0380556c                __DTOR_END__ = .
+                0x0380556c                ___DTORS_END___ = .
+
+.fixup          0x0380556c        0x0
+                0x0380556c                __fixup_start = .
+ *(.fixup)
+                0x0380556c                __fixup_end = .
+
+.eh_frame
+ *(.eh_frame)
+
+.eh_framehdr    0x0380556c        0x0
+                0x0380556c                __eh_framehdr_start = .
+ *(.eh_framehdr)
+                0x0380556c                __eh_framehdr_end = .
+
+.gcc_except_table
+ *(.gcc_except_table)
+
+.mmu_tbl        0x03808000        0x0
+                0x03808000                __mmu_tbl_start = .
+ *(.mmu_tbl)
+                0x03808000                __mmu_tbl_end = .
+
+.ARM.exidx      0x0380556c        0x0
+                0x0380556c                __exidx_start = .
+ *(.ARM.exidx*)
+ *(.gnu.linkonce.armexidix.*.*)
+                0x0380556c                __exidx_end = .
+
+.preinit_array  0x0380556c        0x0
+                0x0380556c                __preinit_array_start = .
+ *(SORT_BY_NAME(.preinit_array.*))
+ *(.preinit_array)
+                0x0380556c                __preinit_array_end = .
+
+.init_array     0x0380556c        0x0
+                0x0380556c                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x0380556c                __init_array_end = .
+
+.fini_array     0x0380556c        0x0
+                0x0380556c                __fini_array_start = .
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array)
+                0x0380556c                __fini_array_end = .
+
+.ARM.attributes
+                0x0380556c       0x31
+                0x0380556c                __ARM.attributes_start = .
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0380556c       0x35 MW_FreeRTOS_glue.o
+ .ARM.attributes
+                0x038055a1       0x35 MW_SupportFunc_Wrapper.o
+ .ARM.attributes
+                0x038055d6       0x35 MW_TabManager.o
+ .ARM.attributes
+                0x0380560b       0x35 MW_Vex_TaskControl.o
+ .ARM.attributes
+                0x03805640       0x35 driver1.o
+ .ARM.attributes
+                0x03805675       0x35 driver1_data.o
+ .ARM.attributes
+                0x038056aa       0x35 ert_main.o
+ .ARM.attributes
+                0x038056df       0x35 heap_4.o
+ .ARM.attributes
+                0x03805714       0x35 list.o
+ .ARM.attributes
+                0x03805749       0x35 mw_freertos_init.o
+ .ARM.attributes
+                0x0380577e       0x35 mw_semaphore.o
+ .ARM.attributes
+                0x038057b3       0x35 mw_thread.o
+ .ARM.attributes
+                0x038057e8       0x35 mw_timer.o
+ .ARM.attributes
+                0x0380581d       0x35 port.o
+ .ARM.attributes
+                0x03805852       0x23 portASM.o
+ .ARM.attributes
+                0x03805875       0x35 queue.o
+ .ARM.attributes
+                0x038058aa       0x35 tasks.o
+ .ARM.attributes
+                0x038058df       0x35 timers.o
+ .ARM.attributes
+                0x03805914       0x35 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ .ARM.attributes
+                0x03805949       0x35 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .ARM.attributes
+                0x0380597e       0x35 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+ .ARM.attributes
+                0x038059b3       0x33 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x038059e6       0x33 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x03805a19       0x21 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x03805a3a       0x33 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x03805a6d       0x33 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x03805aa0       0x19 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x03805ab9       0x33 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strncpy.o)
+                0x03805aec                __ARM.attributes_end = .
+
+.sdata          0x0380556c        0x0
+                0x0380556c                __sdata_start = .
+ *(.sdata)
+ *(.sdata.*)
+ *(.gnu.linkonce.s.*)
+                0x0380556c                __sdata_end = .
+
+.sbss           0x0380556c        0x0
+                0x0380556c                __sbss_start = .
+ *(.sbss)
+ *(.sbss.*)
+ *(.gnu.linkonce.sb.*)
+                0x0380556c                __sbss_end = .
+
+.tdata          0x0380556c        0x0
+                0x0380556c                __tdata_start = .
+ *(.tdata)
+ *(.tdata.*)
+ *(.gnu.linkonce.td.*)
+                0x0380556c                __tdata_end = .
+
+.tbss           0x0380556c        0x0
+                0x0380556c                __tbss_start = .
+ *(.tbss)
+ *(.tbss.*)
+ *(.gnu.linkonce.tb.*)
+                0x0380556c                __tbss_end = .
+
+.bss            0x0380556c    0x438f5
+                0x0380556c                __bss_start = .
+ *(.bss)
+ *(.bss.*)
+ .bss.uxIdleTaskStack.8623
+                0x0380556c     0x1000 MW_FreeRTOS_glue.o
+ .bss.uxTimerTaskStack.8630
+                0x0380656c     0x2000 MW_FreeRTOS_glue.o
+ .bss.xIdleTaskTCB.8622
+                0x0380856c       0x5c MW_FreeRTOS_glue.o
+ .bss.xTimerTaskTCB.8629
+                0x038085c8       0x5c MW_FreeRTOS_glue.o
+ .bss.portMsgIndex
+                0x03808624        0x1 MW_SupportFunc_Wrapper.o
+ .bss.activeMsgHead
+                0x03808625        0x1 MW_TabManager.o
+ .bss.diagnosticTabHandle
+                0x03808626        0x1 MW_TabManager.o
+ .bss.messageObjs
+                0x03808627      0x198 MW_TabManager.o
+ .bss.msgIndexLast
+                0x038087bf        0x1 MW_TabManager.o
+ .bss.navButtons
+                0x038087c0       0x30 MW_TabManager.o
+ .bss.numberOfOtherTabs
+                0x038087f0        0x1 MW_TabManager.o
+ .bss.numberOfSimulinkPanelTabs
+                0x038087f1        0x1 MW_TabManager.o
+ .bss.numberOfUserButtonsRegistered
+                0x038087f2        0x1 MW_TabManager.o
+ *fill*         0x038087f3        0x1 
+ .bss.userPushButtons
+                0x038087f4      0x168 MW_TabManager.o
+ .bss.vexOtherTabs
+                0x0380895c       0x3f MW_TabManager.o
+ .bss.vexSimulinkPanelTabs
+                0x0380899b       0x69 MW_TabManager.o
+ .bss.driver1_M_
+                0x03808a04        0x4 driver1.o
+ .bss.stopRequested
+                0x03808a08        0x1 ert_main.o
+                0x03808a08                stopRequested
+ *fill*         0x03808a09        0x3 
+ .bss.terminatingmodel
+                0x03808a0c        0x4 ert_main.o
+                0x03808a0c                terminatingmodel
+ .bss.pxEnd     0x03808a10        0x4 heap_4.o
+ .bss.ucHeap    0x03808a14    0x40000 heap_4.o
+ .bss.xBlockAllocatedBit
+                0x03848a14        0x4 heap_4.o
+ .bss.xFreeBytesRemaining
+                0x03848a18        0x4 heap_4.o
+ .bss.xMinimumEverFreeBytesRemaining
+                0x03848a1c        0x4 heap_4.o
+ .bss.xStart    0x03848a20        0x8 heap_4.o
+ .bss.ulPortInterruptNesting
+                0x03848a28        0x4 port.o
+                0x03848a28                ulPortInterruptNesting
+ .bss.ulPortTaskHasFPUContext
+                0x03848a2c        0x4 port.o
+                0x03848a2c                ulPortTaskHasFPUContext
+ .bss.ulPortYieldRequired
+                0x03848a30        0x4 port.o
+                0x03848a30                ulPortYieldRequired
+ .bss.pxCurrentTCB
+                0x03848a34        0x4 tasks.o
+                0x03848a34                pxCurrentTCB
+ .bss.pxDelayedTaskList
+                0x03848a38        0x4 tasks.o
+ .bss.pxOverflowDelayedTaskList
+                0x03848a3c        0x4 tasks.o
+ .bss.pxReadyTasksLists
+                0x03848a40      0x140 tasks.o
+ .bss.ulTaskSwitchedInTime
+                0x03848b80        0x4 tasks.o
+ .bss.uxCurrentNumberOfTasks
+                0x03848b84        0x4 tasks.o
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x03848b88        0x4 tasks.o
+ .bss.uxPendedTicks
+                0x03848b8c        0x4 tasks.o
+ .bss.uxSchedulerSuspended
+                0x03848b90        0x4 tasks.o
+ .bss.uxTaskNumber
+                0x03848b94        0x4 tasks.o
+ .bss.uxTopReadyPriority
+                0x03848b98        0x4 tasks.o
+ .bss.xDelayedTaskList1
+                0x03848b9c       0x14 tasks.o
+ .bss.xDelayedTaskList2
+                0x03848bb0       0x14 tasks.o
+ .bss.xNextTaskUnblockTime
+                0x03848bc4        0x4 tasks.o
+ .bss.xNumOfOverflows
+                0x03848bc8        0x4 tasks.o
+ .bss.xPendingReadyList
+                0x03848bcc       0x14 tasks.o
+ .bss.xSchedulerRunning
+                0x03848be0        0x4 tasks.o
+ .bss.xSuspendedTaskList
+                0x03848be4       0x14 tasks.o
+ .bss.xTasksWaitingTermination
+                0x03848bf8       0x14 tasks.o
+ .bss.xTickCount
+                0x03848c0c        0x4 tasks.o
+ .bss.xYieldPending
+                0x03848c10        0x4 tasks.o
+ .bss.pxCurrentTimerList
+                0x03848c14        0x4 timers.o
+ .bss.pxOverflowTimerList
+                0x03848c18        0x4 timers.o
+ .bss.ucStaticTimerQueueStorage.7069
+                0x03848c1c       0x50 timers.o
+ .bss.xActiveTimerList1
+                0x03848c6c       0x14 timers.o
+ .bss.xActiveTimerList2
+                0x03848c80       0x14 timers.o
+ .bss.xLastTime.7022
+                0x03848c94        0x4 timers.o
+ .bss.xStaticTimerQueue.7068
+                0x03848c98       0x4c timers.o
+ .bss.xTimerQueue
+                0x03848ce4        0x4 timers.o
+ .bss.xTimerTaskHandle
+                0x03848ce8        0x4 timers.o
+ .bss._stack_save
+                0x03848cec        0x4 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+ COMMON         0x03848cf0       0xbc driver1.o
+                0x03848cf0                driver1_DW
+ COMMON         0x03848dac       0x4c ert_main.o
+                0x03848dac                threadJoinStatus
+                0x03848db0                stopSem
+                0x03848db4                baserateTaskSem
+                0x03848db8                baseRateThread
+                0x03848dd8                schedulerThread
+ COMMON         0x03848df8       0x28 mw_freertos_init.o
+                0x03848df8                mw_scheduler_timer_def
+                0x03848e1c                mw_timer_id
+ COMMON         0x03848e20       0x40 queue.o
+                0x03848e20                xQueueRegistry
+ COMMON         0x03848e60        0x1 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+                0x03848e60                __vex_critical_section
+                0x03848e61                __bss_end = .
+                0x0380556c                _SDA_BASE_ = (__sdata_start + ((__sbss_end - __sdata_start) / 0x2))
+                0x038054a4                _SDA2_BASE_ = (__sdata2_start + ((__sbss2_end - __sdata2_start) / 0x2))
+
+.heap           0x03848e61   0x10000f
+                0x03848e70                . = ALIGN (0x10)
+ *fill*         0x03848e61        0xf 
+                0x03848e70                _heap = .
+                0x03848e70                HeapBase = .
+                0x03848e70                _heap_start = .
+                0x03948e70                . = (. + _HEAP_SIZE)
+ *fill*         0x03848e70   0x100000 
+                0x03948e70                _heap_end = .
+                0x03948e70                HeapLimit = .
+
+.stack          0x03948e70     0x3800
+                0x03948e70                . = ALIGN (0x10)
+                0x03948e70                _stack_end = .
+                0x0394ae70                . = (. + _STACK_SIZE)
+ *fill*         0x03948e70     0x2000 
+                0x0394ae70                . = ALIGN (0x10)
+                0x0394ae70                _stack = .
+                0x0394ae70                __stack = _stack
+                0x0394ae70                . = ALIGN (0x10)
+                0x0394ae70                _irq_stack_end = .
+                0x0394b270                . = (. + _IRQ_STACK_SIZE)
+ *fill*         0x0394ae70      0x400 
+                0x0394b270                . = ALIGN (0x10)
+                0x0394b270                __irq_stack = .
+                0x0394b270                _supervisor_stack_end = .
+                0x0394ba70                . = (. + _SUPERVISOR_STACK_SIZE)
+ *fill*         0x0394b270      0x800 
+                0x0394ba70                . = ALIGN (0x10)
+                0x0394ba70                __supervisor_stack = .
+                0x0394ba70                _abort_stack_end = .
+                0x0394be70                . = (. + _ABORT_STACK_SIZE)
+ *fill*         0x0394ba70      0x400 
+                0x0394be70                . = ALIGN (0x10)
+                0x0394be70                __abort_stack = .
+                0x0394be70                _fiq_stack_end = .
+                0x0394c270                . = (. + _FIQ_STACK_SIZE)
+ *fill*         0x0394be70      0x400 
+                0x0394c270                . = ALIGN (0x10)
+                0x0394c270                __fiq_stack = .
+                0x0394c270                _undef_stack_end = .
+                0x0394c670                . = (. + _UNDEF_STACK_SIZE)
+ *fill*         0x0394c270      0x400 
+                0x0394c670                . = ALIGN (0x10)
+                0x0394c670                __undef_stack = .
+                0x0394c670                _end = .
+OUTPUT(../driver1.elf elf32-littlearm)
+LOAD linker stubs
+
+.comment        0x00000000       0xbc
+ .comment       0x00000000       0x4c MW_FreeRTOS_glue.o
+                                 0x4d (size before relaxing)
+ .comment       0x0000004c       0x4d MW_SupportFunc_Wrapper.o
+ .comment       0x0000004c       0x4d MW_TabManager.o
+ .comment       0x0000004c       0x4d MW_Vex_TaskControl.o
+ .comment       0x0000004c       0x4d driver1.o
+ .comment       0x0000004c       0x4d driver1_data.o
+ .comment       0x0000004c       0x4d ert_main.o
+ .comment       0x0000004c       0x4d heap_4.o
+ .comment       0x0000004c       0x4d list.o
+ .comment       0x0000004c       0x4d mw_freertos_init.o
+ .comment       0x0000004c       0x4d mw_semaphore.o
+ .comment       0x0000004c       0x4d mw_thread.o
+ .comment       0x0000004c       0x4d mw_timer.o
+ .comment       0x0000004c       0x4d port.o
+ .comment       0x0000004c       0x4d queue.o
+ .comment       0x0000004c       0x4d tasks.o
+ .comment       0x0000004c       0x4d timers.o
+ .comment       0x0000004c       0x70 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_startup.c.obj)
+                                 0x71 (size before relaxing)
+ .comment       0x000000bc       0x71 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apijump.c.obj)
+ .comment       0x000000bc       0x71 C:/ProgramData/MATLAB/SupportPackages/R2021a/3P.instrset/vexv5sdk.instrset/SDK_V5_1_0_12_0/vexv5/libv5rts.a(v5_apiuser.c.obj)
+
+.debug_frame    0x00000000       0xf4
+ .debug_frame   0x00000000       0x34 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-fini.o)
+ .debug_frame   0x00000034       0x2c c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-init.o)
+ .debug_frame   0x00000060       0x38 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-memset.o)
+ .debug_frame   0x00000098       0x20 c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strcpy.o)
+ .debug_frame   0x000000b8       0x3c c:/progra~3/matlab/suppor~1/r2021a/3p778c~1.ins/gnuarm~1.ins/win/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-a+simd/softfp/libc.a(lib_a-strncpy.o)

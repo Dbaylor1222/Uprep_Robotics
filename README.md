@@ -1,5 +1,5 @@
 # Uprep_robotics_team
-The code and resources for UPrep's robotics team 
+The code and resources for UPrep's robotics team. Check out the example code folder for 2 programs using Matlab, read "example_code.md" in that folder for more information on the 2020-21 programs. 
 
 
 Resources:
@@ -14,3 +14,4 @@ https://www.youtube.com/watch?v=ibZLhKYzjPI
 
 https://www.mathworks.com/videos/series/student-competition-mobile-robotics-training.html
 
+http://physics.fme.vutbr.cz/~rudolf/Download/Matlab/Literature/sf_ug.pdf
